@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace LineComprasionComputation
 {
-    public class CompareTwoLine
+    public class CompareMethod
     {
-        public void main()
+        public void CompareLine()
         {
-            Console.WriteLine("To Compare Both Line using CompareTo method");
-            Console.WriteLine("Enter 1 st line coordinates ");
-            double x1 = Convert.ToDouble(Console.ReadLine());
-            double y1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter 2 nd line coordinates ");
-            double x2 = Convert.ToDouble(Console.ReadLine());
-            double y2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter start and end point of 1st st line");
+            double x1 = Convert.ToInt32(Console.ReadLine());
+            double y1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter start and end point of 2nd st line");
+            double x2 = Convert.ToInt32(Console.ReadLine());
+            double y2 = Convert.ToInt32(Console.ReadLine());
 
             double length1, length2;
             if (x1 == x2)//start point equal
